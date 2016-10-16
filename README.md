@@ -10,6 +10,10 @@ Based on [homie-python](https://github.com/jalmeroth/homie-python)
 sudo pip install wakeonlan
 sudo pip install homie
 ```
+Note: to check the state of the nas this script will use the ping command. if you don't want to run this script as sudo (and you shouldn't), run this to allow ping to work without sudo:
+```
+sudo apt-get install --reinstall iputils-ping
+```
 ###step 2: adjust the settings in the mqtt-nas.json file to your own situation
 ###setp 3: Add some Nas settings in the mqtt-nas.py file
 ```
