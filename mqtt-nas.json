@@ -1,0 +1,11 @@
+{
+    "HOST": "mqtt host",
+    "PORT": 1883,
+    "KEEPALIVE": 60,
+    "USERNAME": "",
+    "PASSWORD": "",
+    "CA_CERTS": "",
+    "DEVICE_ID": "homie-nas",
+    "DEVICE_NAME": "homie-nas",
+    "TOPIC": "home/room"
+}
